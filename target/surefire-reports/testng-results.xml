@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-17T17:10:08 IST" name="Suite" finished-at="2025-10-17T17:10:57 IST" duration-ms="49209">
+  <suite started-at="2025-10-20T13:02:23 IST" name="Suite" finished-at="2025-10-20T13:03:08 IST" duration-ms="44680">
     <groups>
     </groups>
-    <test started-at="2025-10-17T17:10:08 IST" name="Test" finished-at="2025-10-17T17:10:57 IST" duration-ms="49209">
+    <test started-at="2025-10-20T13:02:23 IST" name="Test on Chrome" finished-at="2025-10-20T13:03:01 IST" duration-ms="37487">
       <class name="arttoframe.Crm_Email.Testbillionaire">
-        <test-method signature="openbillionaire()[pri:0, instance:arttoframe.Crm_Email.Testbillionaire@56620197]" started-at="2025-10-17T17:10:08 IST" name="openbillionaire" finished-at="2025-10-17T17:10:57 IST" duration-ms="49148" status="PASS">
+        <test-method signature="openbillionaire(java.lang.String)[pri:0, instance:arttoframe.Crm_Email.Testbillionaire@6973b51b]" started-at="2025-10-20T13:02:23 IST" name="openbillionaire" finished-at="2025-10-20T13:03:01 IST" duration-ms="37413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbillionaire -->
       </class> <!-- arttoframe.Crm_Email.Testbillionaire -->
-    </test> <!-- Test -->
+    </test> <!-- Test on Chrome -->
+    <test started-at="2025-10-20T13:03:01 IST" name="Test on Firefox" finished-at="2025-10-20T13:03:08 IST" duration-ms="7145">
+      <class name="arttoframe.Crm_Email.Testbillionaire">
+        <test-method signature="openbillionaire(java.lang.String)[pri:0, instance:arttoframe.Crm_Email.Testbillionaire@74fe5c40]" started-at="2025-10-20T13:03:01 IST" name="openbillionaire" finished-at="2025-10-20T13:03:08 IST" duration-ms="7143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbillionaire -->
+      </class> <!-- arttoframe.Crm_Email.Testbillionaire -->
+    </test> <!-- Test on Firefox -->
   </suite> <!-- Suite -->
 </testng-results>
